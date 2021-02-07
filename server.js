@@ -3,7 +3,7 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const PORT = process.env.PORT || 3000;
 const app = express();
-const htmlRoutes = require("./routes/htmlRoutes");
+
 // require("dotenv").config();
 
 app.use(logger("dev"));
@@ -14,8 +14,8 @@ app.use(express.static("public"));
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  useFindAndModify: false,
   useCreateIndex: true,
+  useFindAndModify: false
 });
 
 // Api routes
