@@ -1,6 +1,6 @@
 // Dependencies
 const express = require("express");
-const Workout = require("../models/workout");
+const Workout = require("../models/Workout");
 const router = express.Router();
 
 // GET route returns last workout
