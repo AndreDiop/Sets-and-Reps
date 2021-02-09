@@ -24,7 +24,10 @@ Users will be able to reach their fitness goals much faster when they track thei
 ## Installation
 After forking the repository from gitHub, download the required NPM packages and then initialize the application by typing 'npm start'. Users will then navigate to 'localhost:3000' to view the application.
 ## Usage
-Users will access the page through the deployed link. Users will select 'new workout' and choose the type of workout, either 'cardio' or resistance'. 
+Users will access the page through the deployed link. [Sets and Reps](https://blooming-beyond-40982.herokuapp.com/)
+Users will access the repository through the link. [Sets and Reps Repository](https://github.com/AndreDiop/Sets-and-Reps)
+
+Users will select 'new workout' and choose the type of workout, either 'cardio' or resistance'. 
 
 
 
